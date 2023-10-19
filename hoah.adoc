@@ -35,4 +35,6 @@ include::Section-A.asc[]
 
 //include::B-Fixing-bugs.asc[]
 
-//ifndef::ebook-format[include::index.asc[]]
+include::book/bibliography/References.asc[]
+
+ifndef::ebook-format[include::index.asc[]]
