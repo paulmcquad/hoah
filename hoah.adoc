@@ -9,11 +9,13 @@ Paul McQuade
 //:front-cover-image: image:book/cover.png[width=1050,height=1600]
 :icons: font
 
-include::book/license.asc[]
+include::LICENSE.asc[]
 
 include::book/Preface/paul.asc[]
 
-include::book/developers.asc[]
+include::book/Preface/developers.asc[]
+
+include::Section-A.asc[]
 
 //include::ch01-getting-started.asc[]
 

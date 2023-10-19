@@ -18,7 +18,7 @@ namespace :book do
         puts "Generating Developers list"
         # Find the developers, exclude me, cut to remove sections and space out the names,
         # column to create a width, output to Developers.txt
-        `git shortlog -s | grep -v -E "(McQuade)" | cut -f 2- | column -c 120 > book/Developers.txt` #
+        `git shortlog -s | grep -v -E "(McQuade)" | cut -f 2- | column -c 120 > book/Preface/Developers.txt` #
   
         # Run Asciidoctor to build the book
         puts "Converting to HTML..."
